@@ -57,7 +57,7 @@ function displayJoke(obj){
 // The output stream is used to print prompts for user input that arrives on, and is read from, the input stream.
 // Link to the docs top of page.
 
-rl.question("Type: dad jokes, programming or general for a joke(ex: programming).", function(answer) {
+rl.question("Type: dad jokes, programming or general for a joke (ex: programming).", function(answer) {
     // single input stream.toLowerCase in case a user types in caps
     answer = answer.toLowerCase()
 
